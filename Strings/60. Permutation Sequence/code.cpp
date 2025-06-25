@@ -1,4 +1,5 @@
 // Notes is in diary (Recusion section).
+// TC:O(N^2), SC:O(N)
 
 class Solution {
 public:
