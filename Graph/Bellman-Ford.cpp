@@ -5,7 +5,6 @@ class Solution {
     vector<int> bellmanFord(int V, vector<vector<int>>& edges, int src) {
         vector<int> dist(V,1e8);
         dist[src]=0;
-        vector<vector<pair<int,int>>> adj(V);
         for(int i=0;i<V-1;i++){
             for(auto edge:edges){
                 int u=edge[0], v=edge[1], wt=edge[2];
