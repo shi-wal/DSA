@@ -1,3 +1,5 @@
+// TC: m*n, SC: O(n)
+
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
