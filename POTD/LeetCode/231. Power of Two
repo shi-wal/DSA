@@ -1,0 +1,7 @@
+class Solution {
+public:
+    bool isPowerOfTwo(int n) {
+        // bit manipulation. --> 16=10000, 15=01111 or 8=1000, 7=0111
+        return n>0 && (n & (n-1))==0;
+    }
+};
